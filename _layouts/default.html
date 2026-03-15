@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <nav class="top-nav">
+    <div class="nav-wrapper">
+      <a href="{{ '/' | relative_url }}" class="nav-brand">
+        <span class="nav-initials">VC</span>
+        <span class="nav-name">Venkata Sarath Chitta</span>
+      </a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Resume</a>
+        <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url == '/projects/' %}active{% endif %}">Projects</a>
+        <a href="https://github.com/sarathchitta" class="nav-link" target="_blank">GitHub ↗</a>
+        <a href="https://linkedin.com/in/sarath-chitta" class="nav-link" target="_blank">LinkedIn ↗</a>
+      </div>
+      <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <div class="wrapper">
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      <p><small>&copy; {{ 'now' | date: "%Y" }} {{ site.author.name }}</small></p>
+    </footer>
+  </div>
+</body>
+</html>

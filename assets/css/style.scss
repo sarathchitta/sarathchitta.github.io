@@ -1,0 +1,369 @@
+---
+---
+
+@import "jekyll-theme-minimal";
+
+/* ==========================================================================
+   Dark Theme Override for jekyll-theme-minimal
+   ========================================================================== */
+
+/* --- Colors --- */
+body {
+  background-color: #0f172a;
+  color: #cbd5e1;
+  margin: 0;
+  padding: 0;
+}
+
+/* --- Top Navigation Bar --- */
+.top-nav {
+  background: rgba(15, 23, 42, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #1e293b;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 0 24px;
+}
+
+.nav-wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none !important;
+  color: #f1f5f9;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-brand:hover {
+  text-decoration: none !important;
+  color: #f1f5f9;
+}
+
+.nav-initials {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: white;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.nav-name {
+  color: #f1f5f9;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-link {
+  color: #94a3b8 !important;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-decoration: none !important;
+  transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+  color: #f1f5f9 !important;
+  background: #1e293b;
+  text-decoration: none !important;
+}
+
+.nav-link.active {
+  color: #3b82f6 !important;
+  background: rgba(59, 130, 246, 0.1);
+}
+
+.nav-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+}
+
+.nav-toggle span {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background: #94a3b8;
+  border-radius: 2px;
+  transition: 0.2s;
+}
+
+/* --- Wrapper / Layout --- */
+.wrapper {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+/* --- Hide theme's default sidebar --- */
+header {
+  display: none !important;
+}
+
+section {
+  width: 100% !important;
+  float: none !important;
+  padding: 0;
+}
+
+
+
+/* --- Main Content Section --- */
+section {
+  color: #cbd5e1;
+}
+
+section h1, section h2, section h3, section h4 {
+  color: #f1f5f9;
+  font-weight: 700;
+}
+
+section h1 {
+  font-size: 2rem;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 12px;
+}
+
+section h2 {
+  font-size: 1.5rem;
+  color: #e2e8f0;
+  margin-top: 2rem;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #1e293b;
+  padding-bottom: 8px;
+}
+
+section h3 {
+  font-size: 1.15rem;
+  color: #93c5fd;
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+
+/* --- Paragraphs & Text --- */
+section p {
+  color: #94a3b8;
+  line-height: 1.75;
+}
+
+section strong {
+  color: #e2e8f0;
+}
+
+section em {
+  color: #7dd3fc;
+}
+
+/* --- Links --- */
+a {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #60a5fa;
+  text-decoration: underline;
+}
+
+/* --- Horizontal Rules --- */
+hr {
+  border: none;
+  border-top: 1px solid #1e293b;
+  margin: 2.5rem 0;
+}
+
+/* --- Tables --- */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th {
+  background-color: #1e293b;
+  color: #93c5fd;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px 14px;
+  border: 1px solid #334155;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+td {
+  padding: 10px 14px;
+  border: 1px solid #1e293b;
+  color: #cbd5e1;
+  font-size: 0.92rem;
+  vertical-align: top;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(30, 41, 59, 0.4);
+}
+
+tr:hover {
+  background-color: rgba(59, 130, 246, 0.06);
+}
+
+td strong {
+  color: #e2e8f0;
+}
+
+/* --- Lists --- */
+section ul {
+  padding-left: 1.5rem;
+}
+
+section ul li {
+  margin-bottom: 8px;
+  color: #94a3b8;
+  line-height: 1.7;
+}
+
+section ul li strong {
+  color: #e2e8f0;
+}
+
+/* --- Inline Code (tech tags) --- */
+code {
+  background: #1e293b;
+  color: #7dd3fc;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.82rem;
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  border: 1px solid #334155;
+}
+
+pre {
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 16px;
+  overflow-x: auto;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+  color: #e2e8f0;
+  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+}
+
+/* --- Blockquotes (impact metrics) --- */
+blockquote {
+  border-left: 3px solid #3b82f6;
+  background: rgba(59, 130, 246, 0.06);
+  padding: 10px 16px;
+  margin: 12px 0 16px;
+  border-radius: 0 6px 6px 0;
+}
+
+blockquote p {
+  color: #10b981 !important;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+/* --- Footer --- */
+footer {
+  border-top: 1px solid #1e293b;
+  color: #475569;
+}
+
+footer a {
+  color: #64748b;
+}
+
+footer a:hover {
+  color: #3b82f6;
+}
+
+/* --- Scrollbar --- */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* --- Selection --- */
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: #f1f5f9;
+}
+
+/* --- Responsive tweaks --- */
+@media print, screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #0f172a;
+    border-bottom: 1px solid #1e293b;
+    flex-direction: column;
+    padding: 12px 24px;
+    gap: 4px;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: flex;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  .wrapper {
+    width: 95%;
+    padding-top: 24px;
+  }
+}
