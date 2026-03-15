@@ -11,7 +11,7 @@ Proven record of delivering **$100M+ business impact**, scaling systems to **100
 
 📍 Seattle, WA, USA &nbsp;|&nbsp; ✉️ [sarath.chitta@gmail.com](mailto:sarath.chitta@gmail.com)
 
-[LinkedIn](https://linkedin.com/in/sarath-chitta) &nbsp;·&nbsp; [GitHub](https://github.com/sarathchitta) &nbsp;·&nbsp; [Projects](/projects/)
+[LinkedIn](https://linkedin.com/in/sarath-chitta) &nbsp;·&nbsp; [Projects](/projects/)
 
 ---
 

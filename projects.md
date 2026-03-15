@@ -156,8 +156,6 @@ Built an automated arbitrage detection and execution system for cryptocurrency p
 
 Built on-chain coin arbitrage system on the Solana network. Developed new smart contracts in Rust to detect and execute arbitrage opportunities across decentralized exchanges with minimal latency.
 
-🔗 [GitHub](https://github.com/sarathchitta/QuantProjects/tree/main/SolanaArb)
-
 `Solana` `Rust` `Smart Contracts` `DeFi` `Arbitrage`
 
 ---
