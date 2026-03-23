@@ -7,6 +7,8 @@ title: Venkata Sarath Chitta
 
 Hands-on Principal Software Engineer and builder of ultra-scalable, low-latency, cloud-native systems and AI-powered platforms from the ground up. Deep expertise in distributed systems internals, AI orchestration, agentic systems, and hyperscale cloud platforms.
 
+Go-to engineer for **high-risk, strategic projects** — repeatedly entrusted with early-stage, pre-product-market-fit initiatives and driven them to PMF and production. Operates with a **fail-fast, user-feedback-first** mindset, with several successful launches and equally valuable lessons from projects that didn't make it.
+
 Proven record of delivering **$100M+ business impact**, scaling systems to **100K+ TPS**, and shipping production code across the full stack.
 
 📍 Seattle, WA, USA &nbsp;|&nbsp; ✉️ [sarath.chitta@gmail.com](mailto:sarath.chitta@gmail.com)
