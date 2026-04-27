@@ -4,6 +4,7 @@ description: >-
   — Experienced engineer building ultra-scalable, low-latency, cloud-native systems and AI-powered platforms.
 url: "https://sarathchitta.github.io"
 baseurl: ""
+permalink: /blog/:title/
 show_downloads: false
 
 # Theme

@@ -253,6 +253,77 @@ section ul li strong {
   color: #e2e8f0;
 }
 
+/* --- Homepage latest posts teaser --- */
+.latest-posts {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.5rem 0 0.75rem;
+}
+
+.latest-post-item {
+  display: block;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(30, 41, 59, 0.7);
+}
+
+.latest-posts-compact .latest-post-item {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.latest-post-header {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.latest-post-item a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+.latest-post-item a:hover {
+  color: #bfdbfe;
+  text-decoration: underline;
+}
+
+.latest-post-meta {
+  color: #64748b;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.latest-posts-empty {
+  color: #94a3b8;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.post-excerpt {
+  color: #94a3b8;
+  margin: 0.35rem 0 0.45rem;
+  line-height: 1.65;
+}
+
+.post-tags {
+  margin: 0;
+}
+
+.post-tag {
+  display: inline-block;
+  background: rgba(59, 130, 246, 0.12);
+  border: 1px solid rgba(59, 130, 246, 0.28);
+  color: #bfdbfe;
+  border-radius: 999px;
+  padding: 2px 8px;
+  margin-right: 6px;
+  font-size: 0.78rem;
+}
+
 /* --- Inline Code (tech tags) --- */
 code {
   background: #1e293b;
@@ -365,5 +436,17 @@ footer a:hover {
   .wrapper {
     width: 95%;
     padding-top: 24px;
+  }
+
+  .latest-posts-compact .latest-post-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .latest-post-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
   }
 }

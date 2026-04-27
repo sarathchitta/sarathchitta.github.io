@@ -79,3 +79,23 @@ Proven record of delivering **$100M+ business impact**, scaling systems to **100
 <p align="center">
   <a href="/projects/">➡️ <strong>View All Projects</strong></a>
 </p>
+
+---
+
+## Latest Posts
+
+{% assign recent_posts = site.posts | slice: 0, 3 %}
+{% if recent_posts.size > 0 %}
+<ul class="latest-posts latest-posts-compact">
+  {% for post in recent_posts %}
+  <li class="latest-post-item">
+    <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
+    <span class="latest-post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="latest-posts-empty">No posts published yet. First article coming soon.</p>
+{% endif %}
+
+<p><a href="{{ '/blog/' | relative_url }}">Read the blog archive →</a></p>
