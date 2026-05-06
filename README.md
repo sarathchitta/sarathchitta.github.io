@@ -3,7 +3,7 @@
 Personal portfolio site at [sarathchitta.github.io](https://sarathchitta.github.io).
 
 ## Pages
-- **Home** (`index.md`) — Resume / About
+- **Home** (`index.md`) — About Me
 - **Projects** (`projects.md`) — Professional & Personal projects
 - **Blog** (`blog.md`) — Blog archive page
 

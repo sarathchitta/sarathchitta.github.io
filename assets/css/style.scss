@@ -253,6 +253,43 @@ section ul li strong {
   color: #e2e8f0;
 }
 
+/* --- About hero with headshot --- */
+.about-hero {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 28px;
+  align-items: center;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.about-hero-image-wrap {
+  width: 200px;
+  height: 200px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 2px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 10px 26px rgba(2, 6, 23, 0.45);
+  background: #0b1220;
+}
+
+.about-hero-image {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+  color: transparent;
+  background-color: #0b1220;
+  background-image: url('/assets/img/headshot.jpg');
+  background-size: cover;
+  background-position: 50% 20%;
+}
+
+.about-hero-content p {
+  margin-top: 0;
+}
+
 /* --- Homepage latest posts teaser --- */
 .latest-posts {
   list-style: none;
@@ -448,5 +485,16 @@ footer a:hover {
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
+  }
+
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .about-hero-image-wrap {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
   }
 }

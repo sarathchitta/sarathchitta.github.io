@@ -5,15 +5,28 @@ title: Venkata Sarath Chitta
 
 ## About Me
 
-Hands-on Principal Software Engineer and builder of ultra-scalable, low-latency, cloud-native systems and AI-powered platforms from the ground up. Deep expertise in distributed systems internals, AI orchestration, agentic systems, and hyperscale cloud platforms.
+<div class="about-hero">
+  <div class="about-hero-image-wrap">
+    <div
+      class="about-hero-image"
+      role="img"
+      aria-label="Professional headshot of Venkata Sarath Chitta"
+    >VC</div>
+  </div>
+  <div class="about-hero-content">
+    <p>I am a curious builder with a strong growth mindset. I believe people can continuously reinvent themselves through learning, exploration, and deliberate experimentation. I enjoy diving into new domains, connecting ideas across disciplines, and building from first principles.</p>
 
-Go-to engineer for **high-risk, strategic projects** — repeatedly entrusted with early-stage, pre-product-market-fit initiatives and driven them to PMF and production. Operates with a **fail-fast, user-feedback-first** mindset, with several successful launches and equally valuable lessons from projects that didn't make it.
+    <p>Recently, I’ve been spending more time in the research space — exploring long-form thinking, experimentation loops, autonomous systems, distributed training, GPU systems, and large-scale inference infrastructure. I’m especially interested in how intelligent systems and scalable compute can accelerate human creativity, research, and decision-making.</p>
 
-Proven record of delivering **$100M+ business impact**, scaling systems to **100K+ TPS**, and shipping production code across the full stack.
+    <p>As a hands-on Principal Software Engineer, I specialize in building ultra-scalable, low-latency, cloud-native platforms and AI-powered systems from the ground up. My work spans distributed systems internals, agentic workflows, AI orchestration, and hyperscale infrastructure.</p>
 
-📍 Seattle, WA, USA &nbsp;|&nbsp; ✉️ [sarath.chitta@gmail.com](mailto:sarath.chitta@gmail.com)
+    <p>Throughout my career, I’ve often been trusted with high-risk, ambiguous, early-stage initiatives — projects without clear playbooks, established markets, or proven paths. I thrive in zero-to-one environments, operating with a fail-fast, user-feedback-driven mindset to rapidly iterate toward product-market fit.</p>
 
-[LinkedIn](https://linkedin.com/in/sarath-chitta) &nbsp;·&nbsp; [Projects](/projects/)
+    <p>I’ve led and shipped systems delivering $100M+ business impact, scaled platforms handling 100K+ TPS, and contributed production code across the full stack. Along the way, I’ve learned that strong conviction, speed of learning, and relentless execution matter more than perfect ideas.</p>
+
+    <p>📍 Seattle, WA, USA &nbsp;|&nbsp; ✉️ <a href="mailto:sarath.chitta@gmail.com">sarath.chitta@gmail.com</a> &nbsp;|&nbsp; <a href="https://linkedin.com/in/sarath-chitta">LinkedIn</a> &nbsp;·&nbsp; <a href="/projects/">Projects</a></p>
+  </div>
+</div>
 
 ---
 
