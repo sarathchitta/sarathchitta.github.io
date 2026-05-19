@@ -49,8 +49,8 @@ title: Venkata Sarath Chitta
 ### Microsoft — Principal Software Engineer
 📍 Redmond, WA &nbsp;·&nbsp; 🗓 2017 – Present
 
-- Built and scaled **Microsoft Teams Events** chat platform end-to-end, driving ~**$100M** business impact
-- Implemented multimodal AI integration enabling **Copilot** to understand shared screen content (**Visual Insights**); improved customer satisfaction by 15%, optimized GPU consumption by 4×
+- Built and scaled **Microsoft Teams Events** chat platform end-to-end, driving ~**$100M** business impact &nbsp; 🔗 [Microsoft Support: Chat in a Town Hall](https://support.microsoft.com/en-us/office/chat-in-a-town-hall-in-microsoft-teams-a4a0e102-ca45-4605-a0a8-83a884547338)
+- Implemented multimodal AI integration enabling **Copilot** to understand shared screen content (**Visual Insights**); improved customer satisfaction by 15%, optimized GPU consumption by 4× &nbsp; 🔗 [Microsoft 365 Copilot Blog](https://techcommunity.microsoft.com/blog/microsoft365copilotblog/what%E2%80%99s-new-in-microsoft-365-copilot--february-2026/4496489#community-4496489-communities)
 - Built extensible AI-driven **Search Insights** platform across Microsoft Exchange ecosystem — hands-on with indexing, ranking, and serving layers
 - Engineered cloud buildout automation reducing deployment time from **6 months to 2 months**
 - Built and optimized **Exchange Admin Management APIs** handling ~2M requests/day and scaled existing system to handle ~500K (from 100K) objects in a single tenant
@@ -58,7 +58,7 @@ title: Venkata Sarath Chitta
 ### CreativeCubs — Founder & Architect
 📍 India &nbsp;·&nbsp; 🗓 2016 – 2017
 
-- Built Android application with **300K+ monthly active users**
+- Built Android application with **300K+ monthly active users** &nbsp; 🔗 [Play Store](https://play.google.com/store/apps/details?id=org.chittu.gold) &nbsp;·&nbsp; [Website](https://indiagoldpriceapp.com/)
 - Implemented scalable backend and ML-based gold price forecasting system
 - Owned full product lifecycle — wrote core backend services, built ML pipelines, and scaled systems hands-on
 
