@@ -61,10 +61,25 @@ Built the full backend system on **Google Cloud** with self-healing infrastructu
 
 ---
 
+### 4. Clanaway
+*Startup · AI*
+
+Born from a personal pain point — our friend groups regularly travel together, but coordinating flights and hotels across 4–5 families was always a hassle. On top of that, friends would ask for recommendations from past trips (e.g., we spotted wolves at dawn in Yellowstone!), and we'd struggle to recall every detail. I wanted a way to share trip plans among ourselves — both to coordinate logistics and to pass along experiences to others planning similar trips. That's how Clanaway was born.
+
+**Engineering challenge: multi-user coordination.** Built a real-time collaborative trip planner where multiple families can simultaneously edit shared itineraries. Integrated an AI trip assistant via OpenAI APIs with tool calling — the assistant can directly modify the itinerary (add stops, reschedule days, suggest restaurants) rather than just generating text.
+
+**AI challenge: security & performance.** Tackled **prompt injection** — user-generated trip content (place names, notes) gets fed into the LLM context, requiring input sanitization and output validation to prevent malicious instructions from hijacking the assistant. Addressed **latency** by streaming responses and parallelizing tool calls so the assistant feels responsive even when executing multi-step itinerary changes. Solved **context bloat** - a group trip with dozens of days, flights, hotels, and activities quickly exceeds token limits; built a retrieval layer that selectively injects only the relevant portion of the itinerary into the prompt based on the user's current question.
+
+🔗 [App Store](https://apps.apple.com/us/app/clan-away-group-trip-helper/id6738758284) &nbsp;·&nbsp; [Website](https://clanaway.com/)
+
+`Mobile App` `OpenAI APIs` `AI Assistant` `Tool Integration` `Full Stack`
+
+---
+
 <details markdown="1">
 <summary><h2 style="display:inline">Other Projects</h2></summary>
 
-### 4. Search Analytics / Insights
+### 5. Search Analytics / Insights
 **Microsoft** · *AI/ML*
 
 Built an extensible AI-driven Search Insights platform across the Microsoft Exchange ecosystem. Enabled intelligent search analytics with real-time data processing and ML-powered relevance ranking.
@@ -73,7 +88,7 @@ Built an extensible AI-driven Search Insights platform across the Microsoft Exch
 
 ---
 
-### 5. Exchange Admin REST API
+### 6. Exchange Admin REST API
 **Microsoft** · *Hyperscale*
 
 Architected Microsoft Exchange Admin management APIs handling ~2M requests per day. Scaled the system to handle ~500K objects per tenant (up from 100K), enabling enterprise-grade administration at scale.
@@ -84,7 +99,7 @@ Architected Microsoft Exchange Admin management APIs handling ~2M requests per d
 
 ---
 
-### 6. Amazon Invoice Scaling
+### 7. Amazon Invoice Scaling
 **Amazon** · *Hyperscale*
 
 Scaled Amazon's vendor payments invoice-matching platform to handle 5× load. Reduced processing time by 90% while increasing throughput from 100 req/sec to 800 req/sec and cutting tp99 latency from 500ms to 100ms.
@@ -95,7 +110,7 @@ Scaled Amazon's vendor payments invoice-matching platform to handle 5× load. Re
 
 ---
 
-### 7. D.E. Shaw Order Latency Optimization
+### 8. D.E. Shaw Order Latency Optimization
 **D.E. Shaw** · *Low-Latency*
 
 Reduced trading order placement latency from 1800µs to 800µs in D.E. Shaw's high-frequency trading infrastructure. Built a transactional persistence framework handling 100K TPS and scaled the trading universe from 5K to 100K instruments.
@@ -103,17 +118,6 @@ Reduced trading order placement latency from 1800µs to 800µs in D.E. Shaw's hi
 > ⚡ 800µs order latency &nbsp;·&nbsp; 🗄️ 100K TPS persistence
 
 `Low-Latency Systems` `HFT Infrastructure` `Memory Optimization` `Java/C++`
-
----
-
-### 8. Clanaway
-*Startup · AI*
-
-A trip planning app for groups of friends to coordinate and plan trips together. Features an AI trip assistant powered by OpenAI APIs that helps plan trip itineraries, with tool integration for itinerary actions like scheduling, and recommendations.
-
-🔗 [App Store](https://apps.apple.com/us/app/clan-away-group-trip-helper/id6738758284) &nbsp;·&nbsp; [Website](https://app.clanaway.com/)
-
-`Mobile App` `OpenAI APIs` `AI Assistant` `Tool Integration` `Full Stack`
 
 ---
 
