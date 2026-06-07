@@ -76,10 +76,76 @@ Born from a personal pain point — our friend groups regularly travel together,
 
 ---
 
+---
+
+<details markdown="1" open>
+<summary><h2 style="display:inline">Trading / Quant</h2></summary>
+
+### 5. AgenticTrading -- Autonomous Strategy Research Engine
+*Personal · AI + Quant*
+
+Built an agentic system that automates the quant research loop: hypothesis generation, backtest execution, result evaluation, and strategy refinement -- all driven by LLMs without human intervention between cycles.
+
+**Problem:** Finding alpha in financial markets requires testing hundreds of hypotheses. The traditional cycle (form hypothesis, code backtest, evaluate, repeat) is slow -- a single idea can take hours to validate, and the researcher is the bottleneck.
+
+**Solution:** An autonomous agent loop powered by Claude that takes a high-level trading goal (e.g., "predict 1% moves in crude oil futures with >70% accuracy") and iterates toward it. The hypothesis agent reasons over past experiment results to generate novel strategies; the experiment agent translates each hypothesis into a QuantConnect backtest, fixes compile errors, and runs it; the goal evaluator decides whether to stop or continue.
+
+**Key insight:** Each failed experiment feeds the next hypothesis -- the agent learns from what didn't work and avoids repeating failed approaches, compressing days of manual research into minutes of autonomous iteration.
+
+> Blog post: [Leveraging Agents for Financial Trading Research](/blog/agentic-trading-research/)
+
+🔗 [GitHub](https://github.com/sarath-hotspot/AgenticTrading)
+
+`LLM Agents` `Claude` `QuantConnect` `Algorithmic Trading` `Python` `Autonomous Research`
+
+---
+
+### 6. D.E. Shaw Order Latency Optimization
+**D.E. Shaw** · *Low-Latency*
+
+Reduced trading order placement latency from 1800us to 800us in D.E. Shaw's high-frequency trading infrastructure. Built a transactional persistence framework handling 100K TPS and scaled the trading universe from 5K to 100K instruments.
+
+> ⚡ 800us order latency · 🗄️ 100K TPS persistence
+
+`Low-Latency Systems` `HFT Infrastructure` `Memory Optimization` `Java/C++`
+
+---
+
+### 7. SPY LEAP Options Strategy
+*Quantitative Finance*
+
+Analyzed and built a long-term investment strategy using SPY LEAP options. Conducted deep analysis of options pricing, to construct optimized LEAP positions for sustained returns.
+
+🔗 [Backtest Results](https://www.quantconnect.cloud/backtest/ee9a7aec98e04469dc7b328ae71003f1/?theme=darkly) &nbsp;·&nbsp; [Analysis Document](https://docs.google.com/document/d/19rYie1x8gU-CBWogfko_Oz9vKora1cldZzIxzZZ6dcQ/edit?usp=sharing)
+
+`Options Trading` `LEAP Strategy` `Quantitative Analysis` `SPY`
+
+---
+
+### 8. Crypto Arbitrage -- India Exchanges
+*Crypto · Low-Latency*
+
+Built an automated arbitrage detection and execution system for cryptocurrency price discrepancies across Indian exchanges. Monitored real-time price feeds across multiple exchanges and executed cross-exchange trades to capture spreads.
+
+`Trading Systems` `Real-time Data` `Python` `Exchange APIs`
+
+---
+
+### 9. On-Chain Coin Arbitrage -- Solana
+*Crypto · DeFi*
+
+Built on-chain coin arbitrage system on the Solana network. Developed new smart contracts in Rust to detect and execute arbitrage opportunities across decentralized exchanges with minimal latency.
+
+`Solana` `Rust` `Smart Contracts` `DeFi` `Arbitrage`
+
+</details>
+
+---
+
 <details markdown="1">
 <summary><h2 style="display:inline">Other Projects</h2></summary>
 
-### 5. Search Analytics / Insights
+### 10. Search Analytics / Insights
 **Microsoft** · *AI/ML*
 
 Built an extensible AI-driven Search Insights platform across the Microsoft Exchange ecosystem. Enabled intelligent search analytics with real-time data processing and ML-powered relevance ranking.
@@ -88,7 +154,7 @@ Built an extensible AI-driven Search Insights platform across the Microsoft Exch
 
 ---
 
-### 6. Exchange Admin REST API
+### 11. Exchange Admin REST API
 **Microsoft** · *Hyperscale*
 
 Architected Microsoft Exchange Admin management APIs handling ~2M requests per day. Scaled the system to handle ~500K objects per tenant (up from 100K), enabling enterprise-grade administration at scale.
@@ -99,7 +165,7 @@ Architected Microsoft Exchange Admin management APIs handling ~2M requests per d
 
 ---
 
-### 7. Amazon Invoice Scaling
+### 12. Amazon Invoice Scaling
 **Amazon** · *Hyperscale*
 
 Scaled Amazon's vendor payments invoice-matching platform to handle 5× load. Reduced processing time by 90% while increasing throughput from 100 req/sec to 800 req/sec and cutting tp99 latency from 500ms to 100ms.
@@ -110,18 +176,7 @@ Scaled Amazon's vendor payments invoice-matching platform to handle 5× load. Re
 
 ---
 
-### 8. D.E. Shaw Order Latency Optimization
-**D.E. Shaw** · *Low-Latency*
-
-Reduced trading order placement latency from 1800µs to 800µs in D.E. Shaw's high-frequency trading infrastructure. Built a transactional persistence framework handling 100K TPS and scaled the trading universe from 5K to 100K instruments.
-
-> ⚡ 800µs order latency &nbsp;·&nbsp; 🗄️ 100K TPS persistence
-
-`Low-Latency Systems` `HFT Infrastructure` `Memory Optimization` `Java/C++`
-
----
-
-### 9. AI Dad Jokes
+### 13. AI Dad Jokes
 *AI · Fun*
 
 A visual dad jokes app that takes existing funny jokes and generates visual representations of them using AI. Combines humor with AI-generated imagery to bring dad jokes to life in a fun, shareable format.
@@ -132,41 +187,12 @@ A visual dad jokes app that takes existing funny jokes and generates visual repr
 
 ---
 
-### 10. Zcash Open Source Contributions
+### 14. Zcash Open Source Contributions
 *Open Source · Crypto*
 
 Contributed to the Zcash cryptocurrency project — a privacy-focused digital currency using zero-knowledge proofs (zk-SNARKs). Contributed to the open-source codebase and privacy-preserving transaction infrastructure.
 
 `Blockchain` `Cryptography` `C++` `Zero-Knowledge Proofs`
-
----
-
-### 11. Crypto Arbitrage — India Exchanges
-*Crypto · Low-Latency*
-
-Built an automated arbitrage detection and execution system for cryptocurrency price discrepancies across Indian exchanges. Monitored real-time price feeds across multiple exchanges and executed cross-exchange trades to capture spreads.
-
-`Trading Systems` `Real-time Data` `Python` `Exchange APIs`
-
----
-
-### 12. On-Chain Coin Arbitrage — Solana
-*Crypto · DeFi*
-
-Built on-chain coin arbitrage system on the Solana network. Developed new smart contracts in Rust to detect and execute arbitrage opportunities across decentralized exchanges with minimal latency.
-
-`Solana` `Rust` `Smart Contracts` `DeFi` `Arbitrage`
-
----
-
-### 13. SPY LEAP Options Strategy
-*Quantitative Finance*
-
-Analyzed and built a long-term investment strategy using SPY LEAP options. Conducted deep analysis of options pricing, to construct optimized LEAP positions for sustained returns.
-
-🔗 [Backtest Results](https://www.quantconnect.cloud/backtest/ee9a7aec98e04469dc7b328ae71003f1/?theme=darkly) &nbsp;·&nbsp; [Analysis Document](https://docs.google.com/document/d/19rYie1x8gU-CBWogfko_Oz9vKora1cldZzIxzZZ6dcQ/edit?usp=sharing)
-
-`Options Trading` `LEAP Strategy` `Quantitative Analysis` `SPY`
 
 </details>
 
