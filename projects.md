@@ -76,8 +76,6 @@ Born from a personal pain point — our friend groups regularly travel together,
 
 ---
 
----
-
 <details markdown="1" open>
 <summary><h2 style="display:inline">Trading / Quant</h2></summary>
 
