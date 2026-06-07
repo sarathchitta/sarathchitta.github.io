@@ -20,6 +20,12 @@ Every quantitative trader faces the same challenge: you need to find a statistic
 
 Traditional quant research is a manual, iterative grind.
 
+## The Agent Control Loop
+
+The system is built around four components working in a continuous cycle:
+
+![Agent Control Loop](https://raw.githubusercontent.com/sarath-hotspot/AgenticTrading/main/image-2.png)
+
 ---
 
 ## The Traditional Approach
@@ -48,50 +54,6 @@ The feedback loop becomes:
 It all starts with a high-level goal.
 
 ---
-
-## Research as Discovery
-
-Research is fundamentally a process of using existing knowledge to push beyond the known boundary and find a path to our goal.
-
-```mermaid
-flowchart BT
-    subgraph known["Known Knowledge "]
-        origin(("We are here"))
-    end
-
-    origin -.->|"curiosity"| A[ ]
-    A -.->|"explore"| B[ ]
-    B -.->|"struggle"| C[ ]
-    C -.->|"learn"| D[ ]
-    D -.->|"adapt"| goal@{ shape: cloud, label: "Goal" }
-
-    E[ ] ~~~ A
-    B ~~~ F[ ]
-    G[ ] ~~~ C
-    D ~~~ H[ ]
-
-    style A fill:none,stroke:none
-    style B fill:none,stroke:none
-    style C fill:none,stroke:none
-    style D fill:none,stroke:none
-    style E fill:none,stroke:none
-    style F fill:none,stroke:none
-    style G fill:none,stroke:none
-    style H fill:none,stroke:none
-    style known fill:#e0e7ff,stroke:#6366f1,stroke-width:3px,rx:200,ry:200
-    style origin fill:#818cf8,stroke:#4f46e5,color:#fff
-    style goal fill:#fef3c7,stroke:#f59e0b,stroke-width:2px,color:#92400e
-```
-
-The agent starts from what we know (domain knowledge, prior experiment results) and explores outward -- forming hypotheses, testing them, learning from failures, and adapting its approach until it reaches the goal.
-
----
-
-## The Agent Control Loop
-
-The system is built around four components working in a continuous cycle:
-
-![Agent Control Loop](https://raw.githubusercontent.com/sarath-hotspot/AgenticTrading/main/image-2.png)
 
 ### The Four Components
 
