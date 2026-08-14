@@ -12,7 +12,6 @@ permalink: /blog/
   <li class="latest-post-item">
     <div class="latest-post-header">
       <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
-      <span class="latest-post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
     </div>
     <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 220 }}</p>
     {% if post.tags and post.tags.size > 0 %}

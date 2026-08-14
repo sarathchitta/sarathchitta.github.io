@@ -103,7 +103,6 @@ title: Venkata Sarath Chitta
   {% for post in recent_posts %}
   <li class="latest-post-item">
     <a href="{{ post.url | relative_url }}"><strong>{{ post.title }}</strong></a>
-    <span class="latest-post-meta">{{ post.date | date: "%B %-d, %Y" }}</span>
   </li>
   {% endfor %}
 </ul>
